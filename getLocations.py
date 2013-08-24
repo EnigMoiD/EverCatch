@@ -37,7 +37,7 @@ for s in streams:
 
 				locations[date] = location
 
-path = "~/Desktop/CatchSwitch/" # /locations.json
+path = "~/Desktop/EverCatch/" # /locations.json
 path = os.path.expanduser(path)
 if not os.path.exists(path):
 	os.makedirs(path)
